@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>quizeta</title>
+    <link rel="stylesheet" href="/css/main.css">
+</head>
+
+<body>
+    <div class="qize-app">
+        <div class="app-info">
+            <div class="category">category :
+                <select name="category" id="category">
+                <option value="Linux">Linux</option>
+                <option value="DevOps">DevOps</option>
+                <option value="Bash">Bash</option>
+                <option value="SQL">SQL</option>
+                <option value="CMS">CMS</option>
+                <option value="Docker">Docker</option>
+                <option value="Code">Code</option>
+                <option value="Uncategorized">Uncategorized</option>
+
+                
+
+            </select>
+            </div>
+            <div class="difficulty">Difficulty:
+                <select name="difficulty" id="difficulty">
+                <option value="Easy">Easy</option>
+                <option value="Medium">Medium</option>
+                <option value="Hard">Hard</option>
+
+            </select>
+            </div>
+            <div class="count">number of questions : <span></span> </div>
+        </div>
+        <div class="question-area"> </div>
+        <div class="answer-area">
+            <!-- <div class="answer">
+                <input type="radio" name="questions" id="1_answer" checked data-answer="mostafa">
+                <label for="1_answer">mostafa</label>
+            </div>
+            <div class="answer">
+                <input type="radio" name="questions" id="2_answer" data-answer="ali">
+                <label for="2_answer">ali</label>
+            </div>
+            <div class="answer">
+                <input type="radio" name="questions" id="3_answer" data-answer="yaser">
+                <label for="3_answer">yaser</label>
+            </div> -->
+
+        </div>
+        <button name="submit" type="submit">submit answer</button>
+        <div class="bullets">
+            <div class="spans">
+
+
+            </div>
+            <div class="timer">
+                Remaining time
+                <span class="minutes">02 : </span>
+                <span class="sec">20</span>
+            </div>
+        </div>
+        <div class="resulte">
+            <span>prefect :</span> you are get <span>10</span> from <span>10</span>
+        </div>
+    </div>
+
+    <script src="/js/main.js"></script>
+</body>
+
+</html>
