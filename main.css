@@ -1,0 +1,157 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: tahoma, Arial;
+}
+
+.qize-app {
+    margin: 20px auto;
+    background-color: #f8f8f8;
+    width: 800px;
+    padding: 20px;
+    border: 1px solid rgb(12, 165, 139);
+}
+
+.qize-app .app-info {
+    display: flex;
+    background-color: #fff;
+    padding: 20px;
+}
+
+.qize-app .app-info .category {
+    flex: 1;
+    text-align: left;
+}
+
+.qize-app .app-info .category select {
+    padding: 4px 28px;
+    text-align: center;
+    font-weight: bold;
+    border: 1px solid rgb(12, 165, 139);
+    appearance: auto;
+}
+
+.qize-app .app-info .category select option {
+    padding: 4px 28px;
+    text-align: center;
+    font-weight: bold;
+}
+
+.qize-app .app-info .difficulty {
+    align-items: center;
+}
+
+.qize-app .app-info .difficulty select {
+    padding: 4px 28px;
+    text-align: center;
+    font-weight: bold;
+    border: 1px solid rgb(12, 165, 139);
+    appearance: auto;
+}
+
+.qize-app .app-info .difficulty select option {
+    padding: 4px 28px;
+    text-align: center;
+    font-weight: bold;
+    border: 1px solid rgb(12, 165, 139);
+    appearance: auto;
+}
+
+.qize-app .app-info .count {
+    flex: 1;
+    text-align: right;
+}
+
+.qize-app .app-info .count select {
+    padding: 4px 28px;
+    text-align: center;
+    font-weight: bold;
+    border: 1px solid rgb(12, 165, 139);
+    appearance: auto;
+}
+
+.qize-app .app-info .count select option {
+    padding: 4px 28px;
+    text-align: center;
+    font-weight: bold;
+}
+
+.qize-app .question-area {
+    background-color: #fff;
+    margin-top: 20px;
+    padding: 10px 10px;
+    text-align: center;
+}
+
+.qize-app .answer-area {
+    margin-top: 20px;
+    background-color: #fff;
+    padding: 20px;
+}
+
+.qize-app .answer-area .answer {
+    background-color: #f8f8f8;
+    padding: 20px;
+    border: 1px solid rgb(109 119 219);
+    margin: 10px;
+    cursor: pointer;
+    text-transform: capitalize;
+}
+
+.qize-app .answer-area label {
+    font-size: 14px;
+    margin-left: 10px;
+}
+
+.qize-app .answer-area input[type="radio"]:checked+label {
+    cursor: pointer;
+    color: #2196f3;
+}
+
+.qize-app button {
+    width: 100%;
+    padding: 14px;
+    font-size: 27px;
+    margin: 2px auto 29px auto;
+    cursor: pointer;
+    border: 1px solid rgb(109 119 219);
+    letter-spacing: 1px;
+}
+
+.qize-app button:focus {
+    outline: none;
+}
+
+.qize-app .bullets .spans {
+    max-width: 100%;
+    padding: 10px;
+    overflow: scroll;
+    /* border: 1px solid rgb(109 119 219); */
+}
+
+.qize-app .bullets .spans span {
+    border: 1px solid rgb(109 119 219);
+    margin: 4px;
+    border-radius: 50%;
+    padding: 2px 12px;
+    background: white;
+    max-width: 100%;
+}
+
+.qize-app .bullets .spans span.mark {
+    background-color: #2196f3;
+}
+
+.qize-app .timer {
+    margin-top: 20px;
+}
+
+.qize-app .resulte {
+    margin: 10px auto;
+}
+
+.qize-app .resulte:first-child {
+    background-color: #2196f3;
+}
